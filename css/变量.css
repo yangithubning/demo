@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* 这是所有人可以看到的*/
+#wrap {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  border: 1px solid ;
+  margin: 0 auto;
+}
+#wrap #inner {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  buttom: 0;
+  margin: auto;
+  background: #ffff00;
+  height: 6.25rem;
+  width: 100px;
+}
